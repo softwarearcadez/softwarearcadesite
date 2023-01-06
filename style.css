@@ -1,0 +1,1594 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#container {
+    overflow: hidden;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    padding: 2em 4em;
+}
+
+#logo {
+    width: 80px;
+    height: 70px;
+    float: left;
+    margin-right: 22px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #000;
+}
+
+.box {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+#logobox {
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+#logobox h1 {
+    margin-top: 12px;
+    letter-spacing: 2.2px;
+    font-size: 29px;
+}
+
+#logobox h3 {
+    letter-spacing: 1px;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+#linksbox ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#linksbox ul li {
+    flex: 1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    padding: 4em 8em !important;
+    padding-bottom: 0 !important;
+}
+
+.imgbox {
+    position: relative;
+    text-align: center;
+    left: 9em;
+}
+
+.frame {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+#menImageFrame {
+    width: 28em;
+    height: 28em;
+    background-image: url("./assests/circle.png");
+}
+
+#manImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    width: 22em;
+    height: 31.5em;
+}
+
+#descbox {
+    padding: 3em 0;
+}
+
+#descbox h1 {
+    font-size: 4em;
+    font-weight: 800;
+}
+
+#desc {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+#wwd {
+    position: relative;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right, #9E4FDF, #5E54E8);
+    color: #fff;
+    padding: 5em 0;
+}
+
+#wwd h1 {
+    font-size: 46px;
+    margin-bottom: 1.4%;
+    position: relative;
+    z-index: 1;
+}
+
+#wwd p {
+    position: relative;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#iconsBox {
+
+    margin: 3em 20em 0;
+    display: flex;
+    justify-content: center;
+}
+
+#wwd .box img {
+    position: relative;
+    z-index: 1;
+    width: 44px;
+    height: 44px;
+}
+
+.iconText {
+    margin-top: 3px;
+    font-size: 18px !important;
+}
+
+#half-circle-right {
+    width: 15em;
+    height: 18em;
+    position: absolute;
+    right: 0;
+    top: 3em;
+}
+
+#center-circle {
+    width: 12em;
+    height: 12em;
+    position: absolute;
+    left: 26%;
+    top: 16%;
+}
+
+#left-circle {
+    width: 9em;
+    height: 10em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#wec {
+    padding: 6em 8em;
+    display: flex;
+}
+
+#womenImageFrame {
+    width: 30em;
+    height: 30em;
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url("./assests/women-bg.png");
+}
+
+#womenImg {
+    position: relative;
+    left: -14em;
+    width: 42em;
+}
+
+#boxes {
+    display: flex;
+}
+
+.boxCol {
+    display: flex;
+    flex-direction: column;
+}
+
+#wec h1 {
+    font-size: 3.4em;
+    margin: .3em 0;
+}
+
+#wecDesc {
+    font-size: 1.1em;
+}
+
+#boxes {
+    padding: 1em;
+    margin-top: 2em;
+    border-bottom: 4.5px solid;
+    border-image: linear-gradient(to right, #9E4FDF, #5E54E8) 1;
+}
+
+#boxes .box {
+    margin: 1.3em;
+}
+
+#boxes h2 {
+    font-size: 1.3em;
+    margin-bottom: .6em;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to right, #9E4FDF, #5E54E8);
+    color: #fff;
+    padding: 8em 0;
+}
+
+footer h1 {
+    font-size: 2.6em;
+}
+
+footer p {
+    font-size: 1.3em;
+}
+
+#address {
+    margin: 1.3em 0;
+}
+
+
+#otp {
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(to right, #9E4FDF, #5E54E8);
+    color: #fff;
+    padding: 2em 4em;
+    height: 40em;
+}
+
+#trail {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 65%;
+}
+
+#right-half-trail {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    display: none;
+}
+
+#left-half-trail {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    display: none;
+}
+
+#otp h1 {
+    font-size: 2.6em;
+    position: relative;
+    z-index: 1;
+}
+
+#otpBox {
+    padding: 1em 17em;
+}
+
+#otp #otpBox p {
+    font-size: 1.3em;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 1.2em;
+    border-bottom: solid 2px #fff;
+}
+
+#left-half-circle {
+    position: absolute;
+    left: 0;
+    width: 20em;
+    height: 24em;
+    top: 15%;
+}
+
+#upper-half-circle {
+    position: absolute;
+    right: 8%;
+    top: 0;
+}
+
+#right-circle-otp {
+    position: absolute;
+    right: 0;
+    width: 20em;
+    height: 24em;
+    top: 20%;
+}
+
+#trailBox {
+    display: flex;
+}
+
+#trailBox .box {
+    position: absolute;
+    z-index: 1;
+    font-size: 1.2em;
+}
+
+#trailBox .box img {
+    margin-top: .3em;
+    width: 1.8em;
+    height: 2.9em;
+}
+
+#pin1 {
+    bottom: 31%;
+    left: 3%;
+}
+
+#pin2 {
+    bottom: 17%;
+    left: 22.5%;
+}
+
+#pin3 {
+    bottom: 17%;
+    left: 53%;
+}
+
+#pin4 {
+    bottom: 31%;
+    right: 19%;
+}
+
+#pin5 {
+    bottom: 26%;
+    right: 1%;
+}
+
+#lastDiv {
+    padding: 2em 4em;
+}
+
+
+#firstDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#peopleImgBox img {
+    width: 100%;
+}
+
+
+#infoBox .box {
+    padding: 1em 10em;
+}
+
+#mountainImg {
+    
+    width: 5.6em;
+    height: 5.1em;
+}
+
+#infoBox h4 {
+    font-size: 1.3em;
+    margin: .3em 0;
+}
+
+#infoBox p {
+    font-size: 1.2em;
+}
+
+#clockImg {
+    width: 5.6em;
+    height: 5.6em;
+}
+
+#devOps {
+    padding: 4em;
+    display: flex;
+}
+
+#devOps ul {
+    list-style: none;
+}
+
+#devOps h1 {
+    font-size: 3.8em;
+    margin-bottom: .5em;
+}
+
+#devOps div {
+    padding: 3em;
+}
+
+#devOps div:nth-child(2) {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgba(31, 73, 125, 0.5);
+}
+
+#devOps li {
+    margin: .8em;
+    font-size: 1.5em;
+}
+
+#devOps p {
+    line-height: 2em;
+    margin: 2.4em 0;
+    font-size: 1.3em;
+}
+
+#devOps h4 {
+    font-size: 1.8em;
+}
+
+#devOps h2 {
+    font-size: 3.2em;
+}
+
+#devOps img {
+    width: 8em;
+    height: 8em;
+    position: absolute;
+    top: 5%;
+    right: 12%;
+}
+
+#devOps ul li::before {
+    content: "\2022";
+    color: #9E4FDF;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    right: 0;
+    background-color: #9E4FDF;
+    /* Black*/
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* Disable scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#mySidenav {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+#responsiveBoxes {
+    display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #linksbox {
+        display: none;
+    }
+
+    #mySidenav {
+        display: block;
+    }
+
+    #hamburger {
+        display: block;
+        font-size: 38px;
+    }
+
+    header {
+        padding: 1em 1.2em;
+    }
+
+    #logo {
+        width: 53px;
+        height: 48px;
+        margin-right: 10px;
+    }
+
+
+    .break {
+        display: none;
+    }
+
+    #logobox h1 {
+        margin-top: 9px;
+        letter-spacing: 1.2px;
+        font-size: 18px;
+    }
+
+    #logobox h3 {
+        letter-spacing: 1.1px;
+        font-size: 16px;
+    } 
+
+
+    /* #linksbox ul li {
+        font-weight: 600;
+        font-size: 1.2em;
+    }  */
+
+    #main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .9em 2em !important;
+    }
+
+    .imgbox {
+        left: 0;
+    }
+
+    #menImageFrame {
+        width: 15.5em;
+        height: 15.5em;
+    }
+
+    #manImg {
+        width: 13em;
+        height: 18.5em;
+    }
+
+    #descbox {
+        padding: 2.3em 0;
+    }
+
+    #descbox h1 {
+        font-size: 2.3em;
+    }
+
+    #desc {
+        margin-top: 5px;
+        font-size: 1.1em;
+    }
+
+    #wwd {
+        padding: 2em;
+    }
+
+    #wwd h1 {
+        font-size: 32px;
+        margin-bottom: 3%;
+    }
+
+    #wwd p {
+        font-size: 16px;
+        z-index: 1;
+    }
+
+    #iconsBox {
+        margin: 0;
+        margin-top: 2em;
+        display: grid;
+        grid-template-columns: 7em 7em;
+        grid-row: auto auto;
+        grid-column-gap: 2em;
+        grid-row-gap: 2em;
+    }
+
+    .iconText {
+        font-size: 15px !important;
+    }
+
+    #half-circle-right {
+        width: 5em;
+        height: 7em;
+        top: 3em;
+    }
+
+    #center-circle {
+        width: 6em;
+        height: 6em;
+        left: 26%;
+        top: 16%;
+    }
+
+    #left-circle {
+        width: 4em;
+        height: 5em;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #wec {
+        text-align: center;
+        padding: 2em !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #womenImageFrame {
+        width: 18em;
+        height: 18em;
+    }
+
+    #womenImg {
+        position: relative;
+        left: -9em;
+        width: 26em;
+    }
+
+    #wec h1 {
+        font-size: 2.4em;
+        margin: .3em 0;
+    }
+
+    #wecDesc {
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    #wec .imgbox {
+        margin: 2em 0 !important;
+    }
+
+    #boxes {
+        padding: 0;
+        margin: 0 !important;
+        margin-top: 1.3em;
+        border-bottom: 2.5px solid;
+    }
+
+    #boxes .box {
+        margin: 1.8em;
+    }
+
+    #boxes h2 {
+        font-size: 1.3em;
+    }
+
+    footer {
+        padding: 4em 2em;
+    }
+
+    footer h1 {
+        font-size: 1.3em;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+
+    #address {
+        margin: .9em 0;
+    }
+
+    #otp {
+        padding: 2em !important;
+        height: 45em;
+    }
+
+    #trail {
+        display: none;
+    }
+
+    #left-half-trail {
+        display: block;
+        top: 53%;
+    }
+
+
+    #right-half-trail {
+        display: block;
+        bottom: 9%;
+    }
+
+    #otp h1 {
+        font-size: 1.6em;
+        margin-bottom: .7em; 
+    }
+
+    #otpBox {
+        padding: 1.3em;
+    }
+
+    #otp #otpBox p {
+        font-size: 1.1em;
+    }
+
+    #left-half-circle {
+        left: 0;
+        width: 5em;
+        height: 7em;
+        top: 4%;
+    }
+
+    #upper-half-circle {
+        width: 6em;
+        height: 7em;
+        right: 18%;
+    }
+
+    #right-circle-otp {
+        right: 0;
+        width: 5em;
+        height: 7em;
+        top: 25%;
+    }
+
+    #trailBox .box {
+        font-size: .7em;
+    }
+
+    #trailBox .box img {
+        width: 1.3em;
+        height: 2.1em;
+    }
+
+    #pin1 {
+        bottom: 45%;
+        left: 2%;
+    }
+
+    #pin2 {
+        bottom: 42%;
+        left: 43.5%;
+    }
+
+    #pin3 {
+        bottom: 14%;
+        left: 5%;
+    }
+
+    #pin4 {
+        bottom: 19%;
+        right: 32%;
+    }
+
+    #pin5 {
+        bottom: 18%;
+        right: 2%;
+    }
+
+    #lastDiv {
+        padding: 2em;
+        text-align: center;
+    }
+
+    #firstDiv {
+        flex-direction: column;
+    }
+
+    #infoBox {
+        margin-top: 1.3em;
+    }
+
+    #infoBox .box {
+        padding: 1em;
+    }
+
+    #mountainImg {
+        width: 4.5em;
+        height: 4.1em;
+    }
+
+    #infoBox h4 {
+        margin: .4em 0;
+    }
+
+    #clockImg {
+        width: 4.6em;
+        height: 4.6em;
+    }
+
+    #devOps {
+        text-align: center;
+        padding: 1em;
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    #devOps h1 {
+        text-align: left;
+        font-size: 1.8em;
+        margin-bottom: .5em;
+    }
+
+    #devOps div {
+        padding: 1em 2em;
+    }
+
+    #devOps div:nth-child(2) {
+        margin: 1.3em;
+        margin-top: 0;
+        padding: 1em;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 3px 3px 6px rgba(31, 73, 125, 0.5);
+    }
+
+    #devOps ul {
+        padding: .6em 1.2em;
+        text-align: left;
+    }
+
+    #devOps li {
+        margin: .4em;
+        font-size: 1.1em;
+    }
+
+    #devOps p {
+        text-align: left;
+        line-height: 1.4em;
+        margin: 1em 0;
+        font-size: .9em;
+    }
+
+    #devOps h4 {
+        text-align: left;
+        font-size: 1.1em;
+    }
+
+    #devOps h2 {
+        text-align: left;
+        font-size: 1.4em;
+    }
+
+    #devOps img {
+        width: 3em;
+        height: 3em;
+        top: 5%;
+        right: 3%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+
+    #linksbox {
+        display: none;
+    }
+
+    #mySidenav {
+        display: block;
+    }
+
+    #hamburger {
+        display: block;
+        font-size: 42px;
+    }
+
+    header {
+        padding: 2em 2.2em;
+    }
+
+    #logo {
+        width: 64px;
+        height: 58px;
+        margin-right: 14px;
+    }
+
+
+    #logobox h1 {
+        margin-top: 6px;
+        letter-spacing: 1.8px;
+        font-size: 26px;
+    }
+
+    #logobox h3 {
+        letter-spacing: 1.4px;
+        font-size: 24px;
+    } 
+
+    /* #linksbox ul li {
+        font-weight: 600;
+        font-size: 1.2em;
+    }  */
+
+    #main {
+        padding: 1em 4em !important;
+        align-items: flex-end;
+    }
+
+    .imgbox {
+        left: 10%;
+    }
+
+    #menImageFrame {
+        width: 15.5em;
+        height: 15.5em;
+    }
+
+    #manImg {
+        width: 13em;
+        height: 18.5em;
+    }
+
+    #descbox {
+        padding: 2.3em 0;
+    }
+
+    #descbox h1 {
+        font-size: 2.3em;
+    }
+
+    #desc {
+        margin-top: 5px;
+        font-size: 1.1em;
+    }
+
+    #wwd {
+        padding: 2em;
+    }
+
+    #wwd h1 {
+        font-size: 36px;
+        margin-bottom: 3%;
+    }
+
+    #wwd p {
+        font-size: 18px;
+        z-index: 1;
+    }
+
+    #iconsBox {
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .iconText {
+        font-size: 16px !important;
+    }
+
+    #half-circle-right {
+        width: 5em;
+        height: 7em;
+        top: 3em;
+    }
+
+    #center-circle {
+        width: 6em;
+        height: 6em;
+        left: 24%;
+        top: 18%;
+    }
+
+    #left-circle {
+        width: 4em;
+        height: 5em;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #wec {
+        text-align: center;
+        padding: 2em !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #womenImageFrame {
+        width: 18em;
+        height: 18em;
+    }
+
+    #womenImg {
+        position: relative;
+        left: -9em;
+        width: 26em;
+    }
+
+    #wec h1 {
+        font-size: 2.4em;
+        margin: .3em 0;
+    }
+
+    #wecDesc {
+        padding: 1em 8em;
+        font-size: 1em;
+    }
+
+    #wec .imgbox {
+        position: relative;
+        margin: 2em 0 !important;
+        left: 0;
+    }
+
+    #boxes {
+        padding: 0;
+        margin: 0 !important;
+        margin-top: 1.3em;
+        border-bottom: 2.5px solid;
+    }
+
+    #boxes .box {
+        margin: 1.8em;
+    }
+
+    #boxes h2 {
+        font-size: 1.3em;
+    }
+
+    footer {
+        padding: 5em 2.5em;
+    }
+
+    footer h1 {
+        font-size: 1.7em;
+    }
+
+    footer p {
+        font-size: 1.3em;
+    }
+
+    #address {
+        margin: 1em 0;
+    }
+
+    #otp {
+        padding: 2em !important;
+        height: 60em;
+    }
+
+    #trail {
+        display: none;
+    }
+
+    #left-half-trail {
+        display: block;
+        top: 36%;
+    }
+
+    #right-half-trail {
+        display: block;
+        bottom: 9%;
+    }
+
+    #otp h1 {
+        font-size: 2em;
+        margin-bottom: .8em; 
+    }
+
+    #otpBox {
+        padding: 1.3em;
+    }
+
+    #otp #otpBox p {
+        font-size: 1.2em;
+    }
+
+    #left-half-circle {
+        left: 0;
+        width: 7em;
+        height: 9em;
+        top: 9%;
+    }
+
+    #upper-half-circle {
+        width: 9em;
+        height: 10em;
+        right: 18%;
+    }
+
+    #right-circle-otp {
+        right: 0;
+        width: 6em;
+        height: 9em;
+        top: 25%;
+    }
+
+    #trailBox .box {
+        font-size: 1.1em;
+    }
+
+    #trailBox .box img {
+        width: 1.5em;
+        height: 2.5em;
+    }
+
+    #pin1 {
+        bottom: 59%;
+        left: 1%;
+    }
+
+    #pin2 {
+        bottom: 53%;
+        left: 45%;
+    }
+
+    #pin3 {
+        bottom: 18%;
+        left: 5%;
+    }
+
+    #pin4 {
+        bottom: 17%;
+        right: 22%;
+    }
+
+    #pin5 {
+        bottom: 25%;
+        right: 2%;
+    }
+
+    #lastDiv {
+        padding: 2em 4em;
+        text-align: center;
+    }
+
+    #firstDiv {
+        flex-direction: column;
+    }
+
+    #infoBox {
+        margin-top: 1.4em;
+    }
+
+    #infoBox .box {
+        padding: 2em 4em;
+    }
+
+    #mountainImg {
+        width: 5.5em;
+        height: 5.1em;
+    }
+
+    #infoBox h4 {
+        margin: .6em 0;
+        font-size: 1.6em;
+    }
+
+    #clockImg {
+        width: 5.6em;
+        height: 5.6em;
+    }
+
+    #devOps {
+        text-align: center;
+        padding: 2em;
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    #devOps h1 {
+        text-align: left;
+        font-size: 2.8em;
+        margin-bottom: .7em;
+    }
+
+    #devOps div {
+        padding: 2em 4em;
+    }
+
+    #devOps div:nth-child(2) {
+        margin: 1.3em 3.3em;
+        margin-top: 0;
+        padding: 2em;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 3px 3px 6px rgba(31, 73, 125, 0.5);
+    }
+
+    #devOps ul {
+        padding: .8em 1.6em;
+        text-align: left;
+    }
+
+    #devOps li {
+        margin: .6em;
+        font-size: 1.4em;
+    }
+
+    #devOps p {
+        text-align: left;
+        line-height: 1.4em;
+        margin: 1em 0;
+        font-size: 1.2em;
+    }
+
+    #devOps h4 {
+        text-align: left;
+        font-size: 1.6em;
+    }
+
+    #devOps h2 {
+        text-align: left;
+        font-size: 2.1em;
+    }
+
+    #devOps img {
+        width: 6em;
+        height: 6em;
+        top: 5%;
+        right: 3%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1325px) {
+    
+    header {
+        padding: 1.5em 3em;
+    }
+    
+    #logo {
+        width: 65;
+        height: 68px;
+        margin-right: 17px;
+    }
+    
+    #logobox h1 {
+        margin-top: 15px;
+        letter-spacing: 1.8px;
+        font-size: 26px;
+    }
+    
+    #logobox h3 {
+        letter-spacing: .7px;
+        font-size: 24px;
+    }
+    
+    #linksbox ul li {
+        font-size: 1.1em;
+    }
+    
+    #main {
+        padding: 3em 6em !important;
+        padding-bottom: 0 !important;
+        justify-content: center;
+
+    }
+    
+    #menImageFrame {
+        width: 21em;
+        height: 21em;
+    }
+    
+    #manImg {
+        width: 17em;
+        height: 24.5em;
+    }
+
+    #descbox {
+        padding: 3em 0;
+    }
+    
+    #descbox h1 {
+        font-size: 3em;
+    }
+    
+    #desc {
+        margin-top: 10px;
+        font-size: 1.4em;
+    }
+    
+    #wwd {
+        padding: 2em 0;
+    }
+    
+    #wwd h1 {
+        font-size: 40px;
+        margin-bottom: .6%;
+    }
+    
+    #wwd p {
+        padding: 0em;
+        font-size: 18px;
+    }
+    
+    #iconsBox {
+        margin: 3em 10em 0;
+    }
+    
+    .iconText {
+        font-size: 16px !important;
+    }
+    
+    #half-circle-right {
+        width: 9em;
+        height: 12em;
+    }
+    
+    #center-circle {
+        width: 7em;
+        height: 7em;
+    }
+    
+    #wec {
+        padding: 3em;
+    }
+    
+    #womenImageFrame {
+        width: 20em;
+        height: 20em;
+    }
+    
+    #womenImg {
+        left: -11em;
+        width: 30em;
+    }
+    
+    #wec h1 {
+        font-size: 3.4em;
+        margin: .3em 0;
+    }
+    
+    #wecDesc {
+        font-size: 1.1em;
+    }
+    
+    #boxes {
+        display: none;
+    }
+
+    #responsiveBoxes {
+        display: flex;
+    }
+
+    #responsiveBoxes {
+        margin: 1em 7em;
+        margin-bottom: 4em;
+        border-bottom: 3px solid;
+        border-image: linear-gradient(to right, #9E4FDF, #5E54E8) 1;
+    }
+    
+    #responsiveBoxes .box {
+        margin: 1.3em;
+    }
+    
+    #responsiveBoxes h2 {
+        font-size: 1.3em;
+        margin-bottom: .6em;
+    }
+    
+    footer {
+        text-align: center;
+        background-image: linear-gradient(to right, #9E4FDF, #5E54E8);
+        color: #fff;
+        padding: 4em 0;
+    }
+    
+    footer h1 {
+        font-size: 2.2em;
+    }
+    
+    footer p {
+        font-size: 1.2em;
+    }
+    
+    #address {
+        margin: 1em 0;
+    }
+    
+    
+    #otp {
+        padding: 2em;
+        height: 36em;
+    }
+    
+    #trail {
+        top: 66%;
+    }
+    
+    #otp h1 {
+        font-size: 2em;
+        margin-bottom: .7em;
+    }
+    
+    #otpBox {
+        padding: 1em 10em;
+    }
+    
+    #otp #otpBox p {
+        font-size: 1.2em;
+        position: relative;
+        z-index: 1;
+        padding-bottom: 1.2em;
+        border-bottom: solid 2px #fff;
+    }
+    
+    #left-half-circle {
+        position: absolute;
+        left: 0;
+        width: 18em;
+        height: 22em;
+        top: 15%;
+    }
+    
+    #upper-half-circle {
+        width: 20em;
+        height: 10em;
+        right: 30%;
+        top: 0;
+    }
+    
+    #right-circle-otp {
+        position: absolute;
+        right: 0;
+        width: 14em;
+        height: 18em;
+        top: 25%;
+    }
+    
+    
+    #trailBox .box {
+        font-size: 1em;
+    }
+    
+    #trailBox .box img {
+        margin-top: .3em;
+        width: 1.4em;
+        height: 2.3em;
+    }
+    
+    #pin1 {
+        bottom: 31%;
+        left: 2%;
+    }
+    
+    #pin2 {
+        bottom: 25%;
+        left: 22%;
+    }
+    
+    #pin3 {
+        bottom: 23%;
+        left: 52%;
+    }
+    
+    #pin4 {
+        bottom: 31%;
+        right: 15%;
+    }
+    
+    #pin5 {
+        bottom: 30%;
+        right: 1%;
+    }
+    
+    #lastDiv {
+        padding: 1em 2em;
+    }
+    
+    
+    #infoBox .box {
+        padding: 1em 4em;
+    }
+    
+    #mountainImg {
+        width: 5em;
+        height: 4.5em;
+    }
+    
+    #infoBox h4 {
+        font-size: 1.3em;
+        margin: .3em 0;
+    }
+    
+    #infoBox p {
+        font-size: 1.2em;
+    }
+    
+    #clockImg {
+        width: 5em;
+        height: 5em;
+    }
+    
+    #devOps {
+        padding: 2em;
+    }
+    
+    #devOps h1 {
+        font-size: 2.3em;
+        margin-bottom: .9em;
+    }
+    
+    #devOps div {
+        padding: 2em;
+    }
+    
+    #devOps li {
+        margin: .8em;
+        font-size: 1.3em;
+    }
+    
+    #devOps p {
+        line-height: 1.3em;
+        margin: 1.9em 0;
+        margin-bottom: 0;
+        font-size: 1.3em;
+    }
+    
+    #devOps h4 {
+        font-size: 1.3em;
+    }
+    
+    #devOps h2 {
+        font-size: 2.2em;
+    }
+    
+    #devOps img {
+        width: 6em;
+        height: 6em;
+        top: 5%;
+        right: 6%;
+    }
+}

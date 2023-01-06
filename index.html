@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Arcade - Home Page</title>
+    <link rel="icon" type="image/png" href="./assests/logo.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap&family=Montserrat:wght@400;600;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <div class="box" id="logobox">
+                    <img src="./assests/logo.png" id="logo" alt="Logo">
+                    <h1>SOFTWARE</h1>
+                    <h3>ARCADE</h3>
+                </div>
+                <div class="box" id="linksbox">
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <span id="hamburger" onclick="openNav()">&#9776;</span>
+                <div id="mySidenav" class="sidenav">
+                    <ul>
+                        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>                  
+            </nav>
+        </header>
+        <div id="main">
+            <div class="box" id="descbox">
+                <h1>Your partner <br class="break"> in talent acquisition</h1>
+                <p id="desc">We empower you by enabling frictionless and simplest way to access local and global tech talent so that you can focus on your core business.</p>
+            </div>
+            <div class="box imgbox">
+                <div id="menImageFrame" class="frame">
+                    <img src="./assests/man.png" alt="man" id="manImg">
+                </div>
+            </div>
+        </div>
+        <div id="wwd">
+            <h1>What we do</h1>
+            <p>Our goal is to connect potential employers and employee by cutting <br class="break"> the hassle out of hiring, on boarding, administration, compliance, payroll <br class="break"> and performance management.</p>
+            <div id="iconsBox">
+                <div class="box">
+                    <img src="./assests/earth.png" alt="earth image">
+                    <p class="iconText">Global Talent</p>
+                </div>
+                <div class="box">
+                    <img src="./assests/handshake.png" alt="handshake image" style="height: 40px; width: 62px;">
+                    <p class="iconText">Managed<br class="break"> Services</p>
+                </div>
+                <div class="box">
+                    <img src="./assests/devops.png" alt="devops image" style="width: 38px; height: 40px;">
+                    <p class="iconText">DevOps<br class="break"> as Service</p>
+                </div>
+                <div class="box">
+                    <img src="./assests/serverless.png" alt="serverless image">
+                    <p class="iconText">Server less<br class="break"> Development</p>
+                </div>
+            <img src="./assests/half-circle-right.png" id="half-circle-right">
+            <img src="./assests/center-circle.png" id="center-circle">
+            <img src="./assests/left-circle.png" id="left-circle">
+            </div>
+        </div>
+        <div id="wec">
+            <div class="box">
+                <h1>Why Empower Consulting</h1>
+                <p id="wecDesc">We are passionate engineers with more than 30+ years of building digital-first experiences that have redefined industries! <br/> We believe our customers will innovate, streamline the process and reinvent industries. We encourage long-term partnerships to empower our customer's talent quest with no strings attached.</p>
+                <div id="boxes">
+                    <div class="boxCol">
+                        <div class="box">
+                            <h2>Latest Technology</h2>
+                            <p>Our talent pool enables you to access builders with experience in the latest technology stack</p>
+                        </div>
+                        <div class="box">
+                            <h2>Accelerated Outcomes</h2>
+                            <p>Our goal is to empower your business and we take care of background checks and compliance requirements</p>
+                        </div>
+                    </div>
+                    <div class="boxCol">
+                        <div class="box">
+                            <h2>Elastic Resouring</h2>
+                            <p>Our global reach enables your business to grow effortless with short ramp-up time</p>
+                        </div>
+                        <div class="box">
+                            <h2>Strategic Partnerships</h2>
+                            <p>We're more than technical experts We work with you to unlock full value of Cloud, AI/ML and IoT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box imgbox" style="margin-top: 4.5em;">
+                <div id="womenImageFrame" class="frame">
+                    <img src="./assests/women.png" alt="women" id="womenImg">
+                </div>
+            </div>
+        </div>
+        <div id="responsiveBoxes">
+            <div class="boxCol">
+                <div class="box">
+                    <h2>Latest Technology</h2>
+                    <p>Our talent pool enables you to access builders with experience in the latest technology stack</p>
+                </div>
+                <div class="box">
+                    <h2>Accelerated Outcomes</h2>
+                    <p>Our goal is to empower your business and we take care of background checks and compliance requirements</p>
+                </div>
+            </div>
+            <div class="boxCol">
+                <div class="box">
+                    <h2>Elastic Resouring</h2>
+                    <p>Our global reach enables your business to grow effortless with short ramp-up time</p>
+                </div>
+                <div class="box">
+                    <h2>Strategic Partnerships</h2>
+                    <p>We're more than technical experts We work with you to unlock full value of Cloud, AI/ML and IoT</p>
+                </div>
+            </div>
+        </div>
+        <div id="otp">
+            <div id="otpBox">
+                <h1>Our Talent Process</h1>
+                <p>We hire and manage the employees as part of our Global Talent pool, <br class="break"> and provide services to you, empowering your organization along the way</p>
+            </div>
+            <img src="./assests/left-half-circle.png" alt="left-half-circle" id="left-half-circle">
+            <img src="./assests/upper-half-circle.png" alt="upper-half-circle" id="upper-half-circle">
+            <img src="./assests/right-circle-otp.png" alt="right-circle-otp" id="right-circle-otp">
+            <div id="trailBox">
+                <img src="./assests/trail.png" alt="trail" id="trail">
+                <img src="./assests/left-half-trail.png" alt="left-half-trail" id="left-half-trail">
+                <img src="./assests/right-half-trail.png" alt="right-half-trail" id="right-half-trail">
+                <div class="box" id="pin1">
+                    <p>Get in touch with <br/> Account Manager</p>
+                    <img src="./assests/pin-point.png" alt="pin point 1">
+                </div>
+                <div class="box" id="pin2">
+                    <p>Understand outcomes<br/> and strategic priorities</p>
+                    <img src="./assests/pin-point.png" alt="pin point 1">
+                </div>
+                <div class="box" id="pin3">
+                    <p>Finalize talent<br/> requirements</p>
+                    <img src="./assests/pin-point.png" alt="pin point 1">
+                </div>
+                <div class="box" id="pin4">
+                    <p>Partner on <br/> talent services</p>
+                    <img src="./assests/pin-point.png" alt="pin point 1">
+                </div>
+                <div class="box" id="pin5">
+                    <p>Deploy talent <br/> and Support</p>
+                    <img src="./assests/pin-point.png" alt="pin point 1">
+                </div>
+            </div>
+        </div>
+        <div id="lastDiv">
+            <div id="firstDiv">
+                <div id="peopleImgBox" class="box">
+                    <img src="./assests/people.png" alt="people">
+                </div>
+                <div id="infoBox" class="box">
+                    <div class="box">
+                        <img src="./assests/mountain-flag.png" alt="Mountain with flag" id="mountainImg">
+                        <h4>Outcome focused</h4>
+                        <p>We obsess over winning customers trust and work proactively to empower your strategic outcomes</p>
+                    </div>
+                    <div class="box">
+                        <img src="./assests/clock.png" alt="Clock with timer" id="clockImg">
+                        <h4>Long Term oriented</h4>
+                        <p>We invest in the talent and our customers. We facilitate International Visa's for talent based on client requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="devOps">
+            <div class="box">
+                <h1>Our Dev-Ops as a <br class="break">service difference</h1>
+                <ul>
+                    <li>Multi Cloud Certified Architects & Engineers</li>
+                    <li>Outcome driven and strategic perspective</li>
+                    <li>Proven Track Record of delivering results</li>
+                    <li>Upskilling - Workshop based training</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4>DevOps as a Service</h4>
+                <h2>What we deliver</h2>
+                <img src="./assests/devOps-logo.png" alt="Dev-Ops logo">
+                <p>Accelerate your Cloud Journey and optimize costs. We provide end to end consulting services, and staff augmentation for project based work, day 2 support, application migration.</p>
+            </div>
+        </div>
+        <footer id="contact">
+            <h1>Contact Us</h1>
+            <p id="address">90 Burnhamthorpe Rd W Suite 1400, Mississauga, ON L5B 3C3</p>
+            <p>info@empowerconsulting.io</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
